@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style-final.css">
+
+</head>
+
+
+<!-- header section starts -->
+<body>
+    <header>
+
+    <a href="#" class="logo"><i class="fas-fa-utensils"></i>MeFood.</a>
+
+    <nav class="navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#Hidangan">Hidangan</a>
+        <a href="#Tentang">Tentang</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Review">Review</a>
+        <a href="#Order">Order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+
+    </header>
+
+<!-- header section ends-->
+
+    <main>
+        <div class="main-title">
+            <div class="categorize">
+              <div class="title-categorize">
+                <h2>Pilih Menu Favorit Anda</h2>
+              </div>
+              <div class="menus">
+                    <div class="menu">
+                        <div class="menu-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bakso_Spesial_1.jpg/480px-Bakso_Spesial_1.jpg" href="#">
+                            <p class="btn" href="#">Makanan</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-icon">
+                            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgSFhUYGBUaGBgcGRwaGhgYGhoYGRoaGhkYGhgcIS8lHB4rHxoYJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHxISHjQsJSs2NjQ0NDQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAUBAwYCBwj/xABFEAACAQIEAgcGAwYEAgsAAAABAgADEQQSITEFQQYiUWFxgaETMlKRscFC0fAUI2JykvEHgqLSM8IVFiRTY4OTstPh4v/EABkBAQADAQEAAAAAAAAAAAAAAAABAgQDBf/EACYRAAICAgICAQMFAAAAAAAAAAABAhEDIRIxBEEiQlFhEzJxsdH/2gAMAwEAAhEDEQA/APsUREkgREQBERBIgxEAREQBERAEREAREQBERAE8xEAREQBETEAzMREAREQBERAExEQBERBAiIgGyIiAIiIJEREAREQBERAEREAREQBERAE8xEAREQBETEAREQBERAEREARExAEREAREQBERANkREAREQBERAEREAREQBERAERPMA9TzKjjXSGhhdKjHNlDZVylspNr5SRcXB27PCbeG8cw9en7VKi5c2U5iFIf4TfnItE06ssolLjuk+GpP7NqmZ7XKorOQO/LoD3byVgeLU6ihg6jN7oLWbwKmxB20tFimWExION4xQpMEqVVRibWJ1va/LbQj5ie6vEqKJ7RqqBPizC395IolxI+CxtOsuem4de0X+h1EkQQIkHHcUSmCTqFF2PIeJnLp/iPhy5plKmfZR1AGb4bswynxleSJUW/R2sTlsP03w5o+3daiC1wpA1X4gxIFu8kQvTfDvTDoGLE9VGZEuObBwSCo7Rc90mxTOpicjwvp5h6rEOrUk2V2IKswNmFgMygH8RFu0g6Tol4thyCwr0ioOUn2iWDdhN9DFhpomRAYHUG4O0SSBERAEREAREQDZERAEREAREQBERAEREAREQCFjqhUaMwzXAsFuDYm4uO49s47jvSOnhlNKpiawLqGFigdVJIuHyWGoO+uk7HiiAproARr2X0v6z5j0h4TTXBP+1Es9N2COurqr1BlUE7ixUG8rJ0WirZavhsJUQGpiqxzL1XeoWuhFitwliNeY85XYzCYPDJaniaqI2wQoBbYnVOsT8TXPhOQw9MGmHpszUiAEve65QAVPZrc+cvsLwk1qCl8wYDTwlXJLZ0UW9EzCYWjWz+zxOJRSR1lZVYlVA3Cktp8V9tLTZieFYagntXr1i91tnUFiwJIIDJlBtuQBew1vON6SK1FVSixUZiWsSDoN7+J9JC4ecRigaTVH6tmU323HnIc1VkqLbo67jGOTE4d1zVGGdGdgVznKDlUll93MWbx8AJE6PcIFXNTK1BTYC5LL1CCCHSy6MbZSbbMZO6P8EagtmYuzb328LTpKKhBYaTPPNvRojjqNMocSuEwDKoetTPvDIQWLDY6jx7tTpOu4fxvOfZK7uVoiszELfK1sinLbrG+1uU4rpXw6m6/tDk3QE6cwORlp/hmWdsVXbc+zQdlk9oLD5CdY5HJWjjKCT2bsJ0wStSrVHoIKNK4fO7m53sEysDy585R8Cx+HxtV8uBwuhzOagKucxOtwpueZlpW4lhqNWrh/ZZVdnJOhVmtc6eRnK0OkFCqHo4ZDSdgbEALfv0llJtESST0dB0yx7UHVhSpqmUWZM57srMCNhytIB47TXBmsaCq7sArBG6y7Ate5y72ld0dd7mjXu65V0e564/mno8Tq/tApuFCZrZco93lrLbK2qOg4VXwlSij1UpjXd6YYA87C40njpDxfh2GRXGHoV3qadWnkUhTzYs2x5Sv6R4E1FQ07DLuL2Fu2UFN8OSMK5zAtmB2W7HUKfG8i3VildH0vA9MsOqUVVcgfqqodwqkG1so2F9J2fCq2emtQixa53J0vYbnunxnAPh6leyL/wALKF+GwJOnnPtHCqeWjTU75Fv4kXP1loyb7KSil0S4iJcoIiIAiIgGyIiAIiIAiIgCIiAIiIAiIgGjGU8yOvapny04Z34hicJWzPhqiB7G+UG4y5W/DsDpzWfVyJ8/6U4KsMM9gQUrX6pN8gJym41textKS6LR7NacATA03KXKdWytqFBPbz35zzQpnL7xNz46nwlzwoPVwyrXXrlbNfmORPfM4HAZAy8gxt4TLKXyo1wXxPn3F+HEYlDkzrlYsp2sJN4jw5aDpUoKFpnLmA5htQZf4/C/v1NvwkSDxJSMOwP4dvAG49JxyZHVr0dYQ2b8O2l+4TYXmjBqSi+A7uXaZtZD3f1L+cot7LPRX8SQOppnZwQfC0uP8O8MEwb5b2NWpYn8WSyFv6g0hPR3JIvYjmd/ATpeB4D2GEo01HVysTfe7szg/wCo+k043p0Z8naPnfSXGUlxL3Q3z2vfmTlOnnIacGpUG9rTWwYX3Jt4X2GonR8b4OhqtUZdWlNxHRAOSgj9fKcsmalSO0cdvZy3FXrHEOXR2ueoVBOn4QJ1+Ept+zXYD2uUgMdxfYEzdwquroDbWcl0o4pUV7KGyW3BtrO0MvOkcZ4+Ns2cKweIFXK4cJZgxLXU3GltZKw3RA+0FR3BVSMoAsTY3XMbyZ0dxTvRQuDmZrC++W+noJ0WJqELYWvy6qn6iRLK+TSJjjVJlRwjoyKbjI12dwDfkjaEDv1n2QC2k4voth2d1Lfh6zaAbbbd9vlO1mjE21bM+VJOkZiYidTkZiYiAIiIBtiIgCIiAIiIAiIgCInmAep5iIAkLHdXrHbn56fWTZqxCBhY8wZSStFoumVmIXqm3ZIQrG57wD+ctjTGW3dK56It8/rPPzJ8rN2OSqirxT9dT4/SVHHnJpuBubS7xdJQVPZKbGurXA11mZpuzRFq0MLcIo52H0mc0jYliF0mvBE5Nd7mdYrRVlhhaZq1EpfEwv4DUn5Az6BVQZCoGgGndbacX0ZS+IU9isfS33nbuND4GbfHj8WzFnl80jh+N4e5DAzkuKUzlfznb8UF+r5TjeKm2aYsnZux9Fb0evlOvOe8HQDu5NjqdxNfAG6r+M2cGbrP4n6yE9os12S0S1RF5amWam7HuErU1rJ3KZPU+9CKSO16JJamzcywHyAP/NL6VXRtLUF7yx9cv2lpPUxqoo8zI7kzMTEToUMxMTMAREQDbERAETF5gsIB6ia/bDtnk1uwE+HLxgG6Jp9ofh8LkfaaGqVf/DHiXP2kWCXEi9c/iQf5WP8AzTGWp8af0N/uiyaJRaYzyPSV76lT4Zh9YqM6/gJH8JX6EiRYNxeGM003B7Qewggzc40lZdFo9mipzle/5yfU5yvZh9Ziy9mrGUvGi+TqKWOu1h56zn8OrAkEGdViW1lVi1mVy9GuKIVcXWRHfIl/4h9ZOcaSKXHu7zpF6IaL7og16zNyFM/Msv5GdpnvznDdEawV6pJt7gHqTOvXGJa5IE3YXUTBmVzKXigF7zi+MJ73nO14lbcdv1tOP4sdWmDN+5m7D0jm+CPlZk+JSw8VNj9RPfBX67+JmzD0wCrcwG9ZG4Seu5/iMrF3s6v2WlE2q5uQT7ybSe4v2kfWQ03J/hm7hrggdmb6TpFaOMns+lcKBWinW0y3+Zv95NLntkbDpZEU8kUegE2CelHSo82W2z27N2zKMTzmhjMLUtFkUTwIImKTXE9mTYPFzExniLIo2Z5g1JWYnH2PVtofn3SJisYxNhsbW84ckSosthic17HaaXqAje/65SsD5UyjU8/rpIuK4kiDruq+Yv8AKUci6iX2H3uSJrZFNwrlCGBLKFF/G+8+cdIOnVKkrCmc78rnS/b3zZ/hxxipjKGJDuTUVgbaaqxJGnIXNuzSTFtkSikd/Wy1CctdNOxra941EpMVwnFFiUqYVl5BjUB87G0o8Q7UFK6qDdh1tSQCLhgBZSRyudN5GTjWIQBSwAexBYqxC33BY37d7+Us9+iEq9naKOIqLKmFOlh1qg+0w/8A0lyXCDxNUzk+J8WdkANR1zL1CpIACsRn6pXMSFOh+L5UR6SezbIKlQqpuWWo6sddcq3sSCbWtrbziUlFExi5H0dKHEzvUwiHuWq+nmRJuFo4lT++xFJh8KUyp/qLn6T5xU4viEoNavULsykDOWYqSfeueoALctSw5CeOHcWq3W7pdSS9y4BF9RcEKba6228pRy/BdQ/J9QrugdAbFusQbfDa+viVko1gZyfG+NUsOuHzsFZqbsLsCbMU1vzGkiYbpThmdAK6ZmdVAzAk5mAtbziUt0RGPs7OuLgjtE5bDY7IpV73Vsp3O+l/CdMrEg+J+05PjnDndwyDxN7W2ub/AGmTL2asPtMzxKoSCASCRuNx3iV9BWVbEk66ZiSx8TJb0HAFyDvra3hpz8ZFq4ezBixJ8dPlM0qNEeiHxJ3yHJ72004WmRa+/OTWmjNYy8XoNE7h3DjVRmDZeuR6CRsXhXpkgvmHdPeA4kUXIEqNqzXSm7Ds95RblJatZ/avQrVLAZEWm98xvctptpzmmKuKoySdSZe1hekjcyiE+OUTkeLjU+E7TFEtTViuUlQStiLd1jtOP40NT4TNmXyNOF/EoFO3gZFwIsW85td9vAzxhjqfCcl6Osizw/PwkrhtEZlVRbM3qZASoFHibS34FrXpj+JfQg/adoLaOM+mfSKyXt2CMswXEyHE9E87YdBaRGXWS/aCYNpLINtLa0y72F5peuBK7G47S19d4ckgotm1qneYld+1D4vpMTnzR04nK4/jOMtcYZqS9rat43Og+XykDBdK3pJ7JqVSrVBJU2A6rG92v7ouTafSAGxHuDLS+MjrNp+BW/8AcfWSsNweggstNe0kjMSfiZjqx7zLKNlXKj5LiOO8QrAhKSUwfFj9pH4X0UfEZnxVV1IItclVa/JTa5Pdefaxhk3yr8hNipb9beEn9MjmfNMD0Fwi6GnUcnmEe3m7DWTaHRJKAqvRR0zINxb3TcWa9777DnO/tynliOe32llFIhybPi+O4q4YLVGfJotyRYXvykCrxcB1dUBykdVyWUkG9tLabCdL026Psrmog/dE3BFr3+ADt75wVZDfLy125Ab2+niY2WVFsvHnYEOAyk6i9u8b3tuJWY7j7q9gLIPdXcAdwIt5zQ3Pwv5f2ImqqwK3Nr38bMNvT7yJKyU6NuO6VVahU5QXVVVWOrALta1gTqbkgk33krh9Wo7IXN817KuVba6lgBv4yoTEsxyol22IRcx/0jUTt+gfAH9oK9dHVU1CupBduQsdcvbKPjHtlk5PpH0LDdGUdKZqs5Zaag+4cu5CgspI3tvNidEMNdT173DD94w2Omgt2SypYliL9pueXlN4rG97aRzgV4yPCLYHxv6CVr0uszEk3tYch5S1faVtc6GZMj2aseyux2w/XKVWIeWGPfSVGIfSZX2aorRpdpGd9TMu8jVH3l0Qz6F0XBXDUwANQ5/qdmlwHY8wJU8GfLh6Q0/4aeqg/eSzX75oWRpVZilC29HjihstyfPacRxrW/h9p1HE8awWwGbe4JH3nCcZxYtrRqr3qjH1W84ykpy0acacY7KXENa3nPGFYlrbk7AbylrV2z7VQt+YcD1E+v8AQShQbDpUw7Kz+7Wze/nHvDMdQvMDaxE6Y8DciuTMoq1s5fD8GxL2K0Xtr7wyfLPaXHCeGPSqrUxCinSAN2NRB3D3WvuRt2yV0v4/iMN1UouWINmyOaanlmcCx8uyfJ8bjGrdetUc1SACxJVWuzWNrAKL6bW+c1xwRWzJLPKWqPpnEum2CTq0nru17XDFUB5XLhm7NlO4mmh08w5PWfE0wT7zpTdQCtwepZit9L213ny+lUscrFgEchf4m00bXa4ve+kxQfMQOqXZduspF7FSpIsCOwDULbadeKOXJn2ngnSSliWKpiAGFyBUp5cwF7lSKhGgBJ5gcp0Ao4i+9Jl/zqR5a3E/Oi1XDhifd0BUkZWXUEMQASLbXE+odAeniexWhimKurZUYoxzJb92rFR7+6jTrWGpJhRRDkzuMRhq5Gipy/Gf9srKvDcTY2SmfGof9k6fDYhXGmo28xuD3gxirKLg2PZ2yJY17JjNnInheN5JQ/8AUf8A+OZnSftQ/X9olOES/NlkqzMwPSO+dziJgmZtDG2sgHltB9fymh0vqfd7O2bit/16zLDa3l+cgsQcZQzqyHRSLN/CvYB2zkeI9BEcMUf2ZbLYFAwRFFgNCD3nXed0aY8r3Pee2eCBr2k38uQ8JJB8lxP+G2ILMVr0spWwJRwddgBmN9B2y64B0KoUKYSuiVK1yWZlLA6kqVRtFAFhoO2fQsg59un3MgY+i56yrmHMXAPZoDYes4ZotxqJ1xSSeyHh8Gg0WwHYoy+gm72Cjl9JFw+JRwp1F72BBUmxINr7jvGk9Kp1yve24bU/Peef+lXrZru/ZPR12FrzZ7USu9vl95d9ra+duQm9K6nax9PQy8ZV2VcTNbEjYEA22PZKnG45kVmKXFuTD7zHGcEtS2e4I2IJVh4Muo+c57GcEcqwXE1QpFrHK+niwvOEs8W2paO8MerQfjC1BdUfTfQfnK7EcQW2zen5xT4JWRSqYhtd8yK3oMsg1Oj1djY4geVL/wDRkJ4n9X9/4dfmvQqY8cgfMgSNgOIB6iBgMudQVve4LAGbz0Qc+9iHt4Kv/wBybw3opRpuGDXYHe2Y/O06LJiXuyjjN+jrxjr6A2A8haeXxf8AH8v7TbR4WLbm3n9psPC1/QvLtqjnRS4quT+Iysqu57f15Tp34Xr+EfzEL9Z4/ZFXQuvkCx+wnF99HRSX3OSOGc8vn/eWXR/FPh6oY6o2jqBfTkw7wfv2y4f2Sa5GY95VR6XldiOJFR1EVfIuQPE3+kvCXF2isvkqaPoFOrcXVrgjTmLHxlZj+D4aqb1cNRdviKKG055gL3nO9G+kBVzTqnqMeqxAAU9mgAyn6+naMJ6uPIpxtHmZIOEqZyOI6D8Oa3/ZctjfqVKii/bYNY7CRv8AqJgF92nVH/msdb3v1r635zsHSaGWWbKo5UdBMCNMlUjUa1n/ABb/ADuZtodCMApzCiSdNWq1jtqL2cXt3zozPD1LSLJo04OglBfZ0lVFuTZRbU7m+9z4zc1NiLqet2HZu4nke+eKdz1iPAbefhJdNx5yHslKiF+0p+I5W5g2BB74lnnH6tEjiOX4LEds9ATM8zoUMMeQnikpA6xB8AR957v2QeyQSZmAOf6tB10+cA/ISSDDpfQzXku17zaZhVtIJR5y32seU04smwRTZ3uAeYH4m8h6kdskFgASTYCRsIc5ar29VO5Ad/8AMbnwyyH9gvubloqFyBRlACgW0sNALdlpCq8KTLZOoTzFyNT8JO3cLSwfaHH0iUU+yVJrplQ2AdWv1GAFtRlax3A30uBpeR3I1zU2W2hJBHrsfK8v35GLfI7zjLBF9HWOZrs5YKToj21NwbfTaeamDYnVV8QbfOdBX4bTY6oAe1dD6b+cinhRtZWuexhY/MflM2TxW1VWaIeQv4OdrYMjtHkp9TItYBfec/Jh9J0WIwbqLlSQButj6Xv6Skq2qXKrVYjQ2pVdP9E8/J41P9rNcM6f1ERGFxa+u1l179zN1MC/uN29ZgPRRf1mMPSa9vZVyTcC1JxrzuWUADxNpu/ZcSR1MM2lzeo6IP8ASWPpLYvGfdMiedfclLintYEDwH+68NUY6FmI56m3yGk10+D41jdnpInLKpdj5mwHyMk0uiRa/tcRVfMeTZAB2WS1/ObY4MjM0s0EQK2JROs7oq9pIHrNX/SiOL0w1S40KKzKezrgZfWdBheiuFRywpKWyquYi5IuTqTzm/o/g1pUzhwo/cuyD+TRk/0OnmDLrxH7ZzfkL0jkThsVU1WgVB/7xgth3Bcxntei2JfR6qIp00UswP8AMx1HlPoBHPsgqPI/oH7fKdo+LBFH5EmcPT6Cpoaj1HsesCxX0WwI8p12BwpRBTJvksFPavL8pKvz5jQ94ns6/Y/adowUejjKTl2Q6tMiQ6htLRkb4vmL/QiQcbhahBylM3K4YD0vJZCKrEYq15HoVM93OwO3b3zViuD4si+emP5FZyPIkffwm3hXDXUZC+Y6m5FjrqQVlLZekSxVt+uUZ+c3rw1hpfSa14c4v9Pyk0yLRn2sT1+xtEbI0dFPBaYidCpkdnOLREIgzPPYIiAZMCIgGjEMcyoALNe5PdY7eF5vUafrlESF2S+gNhPObqg+UzEMIyouLTBWIkkGRrpPK725iIkMkMt9/l2+M11am4G4tfuv2REhko9quVbTwF6neT9YiSDNXRfKbeY8JiIIAG/iJAYZcSDyqU7H+akSb+Yc/wBIiJDJROA5dsxbS0RLEA9vkZleyIkATW4iIZKAmbDe0RAPYEzaIklTFh2TMRAP/9k=">
+                            <p class="btn" href="#">Minuman</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-icon">
+                            <img src="https://cdns.klimg.com/merdeka.com/i/w/news/2020/11/17/1243319/540x270/6-resep-bisnis-makanan-ringan-yang-lezat-praktis-dan-menguntungkan.jpg">
+                            <p class="btn" href="#">Snack</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-icon">
+                            <img src="https://cdn.idntimes.com/content-images/post/20210119/lotuzzz-b032e21c42fa2951e3de96db11202e2e_600x400.jpg">
+                            <p class="btn" href="#">Hidangan Penutup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+    </main>
+
+
+    <footer>
+	<div class="footer-content">
+		<div class="content-about">
+			<h2>MeFood.</h2>
+			<p>MeFood merupakan salah satu perusahaan yang menyediakan makanan sesuai dengan kebutuhan konsumen. Pembelian dapat dilakukan secara delivery dan online. Store offline MeeFood sudah tersedia diberbagai daerah di Indonesia. Makanan yang terseda di MeeFood terjamin tidak menggunakan pengawet, halal dan masa kedaluarsa dijamin lama. Bahan yang dibuat pun berasal dari bahan dengan kualitas premium yang di sortir dari berbagai macam daerah di Indonesia.</p>
+		</div>
+		<div class="content-social">
+			<h2>Connect Us</h2>
+			<ul>
+				<li><a href="#">Intagram @MeFood_</a></li>
+				<li><a href="#">Facebook MeFood Official</a></li>
+				<li><a href="#">twitter @MeFoodOfc_</a></li>
+			</ul>
+		</div>
+		<div class="content-pesan">
+			<h2>Contact Us</h2>
+			<form action="#">
+				<input class="email" type="text" placeholder="Email" required="masukan email">
+				<input class="isi" type="text" placeholder="Ketik Pesan">
+				<input class="btn" type="button" value="Send">
+			</form>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		&copy 2021 | design by A119
+	</div>
+    </footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+
+</body>
+</html>
